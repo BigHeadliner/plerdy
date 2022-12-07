@@ -19,7 +19,14 @@ body {
      margin: 0 auto; 
      padding: 0 15px;  
      border: 1px solid green;  
-     border: 1px solid transparent;   
+    // border: 1px solid transparent;   
  } 
- 
+  
+ .majority-btn{ 
+    font-weight: 400; 
+    color: #FFF; 
+    background: #5D78FF; 
+    border-radius: 8px; 
+    display: inline-block;
+ }
 
