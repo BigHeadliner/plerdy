@@ -9,19 +9,25 @@
 .header {
 
     &__top {
+        top:0;  
+        left:0; 
+        right:0;
+        background-color: #fff; 
+        z-index:999; 
+
+    }  
+     
+    &__top-inner{ 
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 18px 15px;
         border-bottom: 1px solid #E5E5E5; 
-        position: fixed; 
-        top:0;  
-        left:0; 
-        right:0;
-        background-color: #fff; 
-        z-index:999;
-
-
+        position: fixed;   
+        width: 100%; 
+        max-width: 1257px;
+        border: 1px solid fuchsia;   
+         
         .menu {
 
             &__btn {
@@ -86,9 +92,8 @@
                 color:#7D7D7D;
                 font-size: 18px;
             }
-        }
-
-    } 
+        } 
+     }
       
     &__top-user-nav{ 
         border: 1px solid transparent;
