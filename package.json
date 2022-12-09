@@ -30,6 +30,9 @@
     "@fancyapps/fancybox": "^3.5.7",
     "@fancyapps/ui": "^4.0.31",
     "counterup2": "^2.0.2",
+    "country-list-with-dial-code-and-flag": "^3.0.2",
+    "intl-tel-input": "^17.0.19",
+    "jquery-validation": "^1.19.5",
     "save-dev": "^0.0.1-security"
   }
 }
