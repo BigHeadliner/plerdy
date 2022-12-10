@@ -37,7 +37,7 @@
                 padding: 0;
                 background-color: transparent;
                 transition: all 0.25s;
-                display: none;
+                display: none; 
 
                 .row-top,
                 .row-middle,
@@ -47,7 +47,7 @@
                     left: 0;
                     width: 45px;
                     height: 3px;
-                    background: $white;
+                    background: #001E41;
                     transform: rotate(0);
                     transition: all 0.5s;
                 }
