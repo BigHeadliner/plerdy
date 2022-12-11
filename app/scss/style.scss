@@ -302,7 +302,6 @@
     background-color: transparent;
     z-index: 999;
     display: none;
-    // display: block;
 
     &__container {
         display: flex;
@@ -447,7 +446,12 @@
         position: absolute;
         top: 14px;
         left: 7px;
-    }
+    } 
+    &__checkbox-text, 
+    &__logo-text{ 
+        color:#BDBDBD; 
+    } 
+     
 
     &__checkbox-link {
         color: #5D78FF;
